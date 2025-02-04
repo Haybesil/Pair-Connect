@@ -75,7 +75,7 @@ const Home = () => {
           <div>
             <PartnerSection />
           </div>
-          <div className="bg-[#1A1A1A] flex flex-col lg:flex-row justify-between px-24 py-24 gap-10 lg:gap-0">
+          <div className="bg-[#1A1A1A] flex flex-col lg:flex-row justify-between lg:px-24 py-24 gap-10 lg:gap-0">
             <div className="text-gray-300">
               <h2 className="text-[35px] sm:text-[36px] md:text-[40px] lg:text-[45px] font-normal max-w-full lg:max-w-[500px] text-center lg:text-left">
                 Welcome to{' '}
