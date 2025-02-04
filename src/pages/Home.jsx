@@ -179,7 +179,7 @@ const Home = () => {
             </div>
           </div>
           <footer className="">
-            <h1 className="text-[30px] lg:text-[55px] font-semibold text-center text-gray-400 px-40 pt-8">
+            <h1 className="text-[30px] lg:text-[55px] font-semibold text-center text-gray-400 lg:px-40 pt-8">
               <span className="text-white">Learn</span> more about the Pairs
               vision and features in our upcoming Whitepaper
             </h1>
