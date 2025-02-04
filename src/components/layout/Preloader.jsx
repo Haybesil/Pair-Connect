@@ -27,7 +27,7 @@ const Preloader = () => {
       <img
         src={PairsLogo}
         alt="Logo"
-        className={`w-32 animate-spin transition-transform duration-1000 ${
+        className={`w-20 lg:w-32 animate-spin transition-transform duration-1000 ${
           showSecondImage ? "translate-x-20 opacity-50" : ""
         }`}
       />
@@ -37,7 +37,7 @@ const Preloader = () => {
         <img
           src={Pairs}
           alt="Logo"
-          className="w-40 h-44 transition-transform duration-1000"
+          className="w-32 lg:w-40 h-36 lg:h-44 transition-transform duration-1000"
           data-aos="fade-left"
         />
       )}
