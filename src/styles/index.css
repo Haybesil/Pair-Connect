@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .button {
-  @apply inline-flex w-[50%] lg:w-full items-center justify-center gap-x-2 rounded-[10px] border border-transparent px-3 lg:px-6 py-3 font-medium transition-colors disabled:pointer-events-none disabled:opacity-50 sm:w-auto;
+  @apply inline-flex w-[40%] lg:w-full items-center justify-center gap-x-2 rounded-[10px] border border-transparent px-2 lg:px-6 py-3 font-medium transition-colors disabled:pointer-events-none disabled:opacity-50 sm:w-auto;
 }
 
 .button-solid {
