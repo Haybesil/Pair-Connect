@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Preloader from '../components/layout/Preloader';
 import { ButtonSolid } from '../components/common/base/buttons/Button';
 import PartnerSection from '../components/layout/Partner';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 // Images
 import PairsLogo from '/images/pairsLogo.svg';
@@ -16,6 +18,10 @@ import PairAppMobile from '/images/pairs-app-mobile.png';
 const Home = () => {
   const [loading, setLoading] = useState(true);
   const currentYear = new Date().getFullYear();
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -36,7 +42,7 @@ const Home = () => {
               <img src={PairsLogo} alt="Logo" />
               <img src={Pairs} alt="Name" />
             </div>
-            <ButtonSolid text="Connect Wallet" className='lg:!w-[15%]'/>
+            <ButtonSolid text="Connect Wallet" className="lg:!w-[15%]" />
           </nav>
           <div
             className="wave-background pt-16 lg:pt-60 flex justify-between flex-col lg:flex-row pb-10"
@@ -55,7 +61,11 @@ const Home = () => {
                 Swap <span className="font-semibold">Seamlessly</span> Anywhere
                 with Pairs
               </h2>
-              <p className="text-gray-300 text-[18px] font-normal pb-6 text-center lg:text-left">
+              <p
+                className="text-gray-300 text-[18px] font-normal pb-6 text-center lg:text-left"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 Powering your CeFi and DeFi transactions
               </p>
               <div className="flex justify-center lg:justify-start">
@@ -77,26 +87,46 @@ const Home = () => {
           </div>
           <div className="bg-[#1A1A1A] flex flex-col lg:flex-row justify-between lg:px-24 py-24 gap-10 lg:gap-0">
             <div className="text-gray-300">
-              <h2 className="text-[35px] sm:text-[36px] md:text-[40px] lg:text-[45px] font-normal max-w-full lg:max-w-[500px] text-center lg:text-left">
+              <h2
+                className="text-[35px] sm:text-[36px] md:text-[40px] lg:text-[45px] font-normal max-w-full lg:max-w-[500px] text-center lg:text-left"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 Welcome to{' '}
                 <span className="font-semibold text-[#7ee89f]">swaps</span> with
                 minimal fees.
               </h2>
 
-              <p className="px-[100px] lg:px-0 lg:max-w-[500px] text-center lg:text-left pt-6">
+              <p
+                className="px-[100px] lg:px-0 lg:max-w-[500px] text-center lg:text-left pt-6"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
                 Pairs is launching with a core feature, offering an accessible
                 and efficient DeFi trading solution
               </p>
             </div>
             <div className="flex gap-3 justify-center px-5 lg:px-0">
-              <img src={InfoCard1} alt="" className="lg:w-72 w-48 h-[250px] lg:h-[350px]" />
-              <img src={InfoCard2} alt="" className="lg:w-72 w-48 h-[250px] lg:h-[350px]" />
+              <img
+                src={InfoCard1}
+                alt=""
+                className="lg:w-72 w-48 h-[250px] lg:h-[350px]"
+              />
+              <img
+                src={InfoCard2}
+                alt=""
+                className="lg:w-72 w-48 h-[250px] lg:h-[350px]"
+              />
             </div>
           </div>
 
           <div className="bg-[#1A1A1A] flex flex-col lg:flex-row justify-between py-24 gap-10 lg:gap-16">
             <div className="">
-              <h1 className="text-gray-300 text-[35px] lg:text-[48px] font-semibold lg:max-w-[900px] text-center lg:text-left pl-0 lg:pl-24">
+              <h1
+                className="text-gray-300 text-[35px] lg:text-[48px] font-semibold lg:max-w-[900px] text-center lg:text-left pl-0 lg:pl-24"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
                 Expect rapid developments in our services and features that
                 enhance your DeFi experience without any fluff. We’re here to
                 make DeFi accessible and efficient.
@@ -121,7 +151,11 @@ const Home = () => {
               <h2 className="text-center lg:text-left text-[32px] font-semibold">
                 Why Pairs?
               </h2>
-              <div className="relative border border-gray-500 rounded-lg px-5 pl-8 py-3">
+              <div
+                className="relative border border-gray-500 rounded-lg px-5 pl-8 py-3"
+                data-aos="fade-right"
+                data-aos-duration="1500"
+              >
                 <img
                   src="/icons/swap-icon.svg"
                   alt=""
@@ -134,7 +168,11 @@ const Home = () => {
                   Executive swaps across blockchains efficiently.
                 </p>
               </div>
-              <div className="relative border border-gray-500 rounded-lg px-5 pl-8 py-3">
+              <div
+                className="relative border border-gray-500 rounded-lg px-5 pl-8 py-3"
+                data-aos="fade-left"
+                data-aos-duration="1500"
+              >
                 <img
                   src="/icons/dollar-icon.svg"
                   alt=""
@@ -149,7 +187,11 @@ const Home = () => {
               </div>
             </div>
             <div className="flex flex-col lg:flex-row justify-between px-8 lg:px-24 gap-5 lg:gap-0">
-              <div className="relative border border-gray-500 rounded-lg px-5 pl-8 py-3">
+              <div
+                className="relative border border-gray-500 rounded-lg px-5 pl-8 py-3"
+                data-aos="fade-right"
+                data-aos-duration="1500"
+              >
                 <img
                   src="/icons/speed-icon.svg"
                   alt=""
@@ -162,7 +204,11 @@ const Home = () => {
                   Fast transaction keep your trading up to speed.
                 </p>
               </div>
-              <div className="relative border border-gray-500 rounded-lg px-5 pl-8 py-3">
+              <div
+                className="relative border border-gray-500 rounded-lg px-5 pl-8 py-3"
+                data-aos="fade-left"
+                data-aos-duration="1500"
+              >
                 <img
                   src="/icons/looking-icon.svg"
                   alt=""
@@ -179,7 +225,11 @@ const Home = () => {
             </div>
           </div>
           <footer className="">
-            <h1 className="text-[30px] lg:text-[55px] font-semibold text-center text-gray-400 lg:px-40 pt-8">
+            <h1
+              className="text-[30px] lg:text-[55px] font-semibold text-center text-gray-400 lg:px-40 pt-8"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <span className="text-white">Learn</span> more about the Pairs
               vision and features in our upcoming Whitepaper
             </h1>
