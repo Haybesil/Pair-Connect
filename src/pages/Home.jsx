@@ -45,7 +45,7 @@ const Home = () => {
             <ButtonSolid text="Connect Wallet" className="lg:!w-[15%]" />
           </nav>
           <div
-            className="wave-background pt-16 lg:pt-60 flex justify-between flex-col lg:flex-row pb-10"
+            className="wave-background pt-16 lg:pt-60 flex justify-between flex-col lg:flex-row pb-10 relative"
             style={{
               backgroundImage: "url('/images/background1.gif')",
               backgroundPosition: 'center',
@@ -53,11 +53,11 @@ const Home = () => {
               backgroundRepeat: 'no-repeat',
             }}
           >
-            <div className=" pl-0 lg:pl-11">
+            <div className="relative z-10 pl-0 lg:pl-11">
               <h3 className="text-[#00a848] text-[27px] font-medium text-center lg:text-left">
                 Pairs
               </h3>
-              <h2 className="text-gray-300 text-[55px] font-normal pb-6 text-center lg:text-left">
+              <h2 className="text-white text-[40px] lg:text-[55px] font-normal pb-6 text-center lg:text-left">
                 Swap <span className="font-semibold">Seamlessly</span> Anywhere
                 with Pairs
               </h2>

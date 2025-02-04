@@ -10,6 +10,14 @@
   @apply bg-[#153723] text-[#00a848] hover:bg-[rgba(174,241,174,0.91)] focus:bg-p-primary/90;
 }
 
+.wave-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+}
+
 /* partners section in home page */
 @keyframes scroll {
   from {
