@@ -47,7 +47,7 @@ const Home = () => {
             
            }}
           >
-            <div className="pl-11">
+            <div className=" pl-0 lg:pl-11">
               <h3 className="text-[#00a848] text-[27px] font-medium text-center lg:text-left">
                 Pairs
               </h3>
