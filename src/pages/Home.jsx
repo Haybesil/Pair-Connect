@@ -39,7 +39,7 @@ const Home = () => {
             <ButtonSolid text="Connect Wallet" />
           </nav>
           <div
-            className="wave-background pt-60 flex justify-between flex-col lg:flex-row pb-10"
+            className="wave-background pt-16 lg:pt-60 flex justify-between flex-col lg:flex-row pb-10"
             style={{
               backgroundImage: "url('/images/background1.gif')",
               backgroundPosition: 'center',
@@ -77,7 +77,7 @@ const Home = () => {
           </div>
           <div className="bg-[#1A1A1A] flex flex-col lg:flex-row justify-between px-24 py-24 gap-10 lg:gap-0">
             <div className="text-gray-300">
-              <h2 className="text-[32px] sm:text-[36px] md:text-[40px] lg:text-[45px] font-normal max-w-[500px] text-center lg:text-left">
+              <h2 className="text-[35px] sm:text-[36px] md:text-[40px] lg:text-[45px] font-normal max-w-full lg:max-w-[500px] text-center lg:text-left">
                 Welcome to{' '}
                 <span className="font-semibold text-[#7ee89f]">swaps</span> with
                 minimal fees.
