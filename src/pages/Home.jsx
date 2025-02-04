@@ -31,7 +31,7 @@ const Home = () => {
         <Preloader />
       ) : (
         <div className="bg-[#1A1A1A] h-screen">
-          <nav className="bg-[#1A1A1A] flex justify-between items-center px-10 pt-5 pb-4">
+          <nav className="bg-[#1A1A1A] flex justify-between items-center px-3 lg:px-10 pt-5 pb-4">
             <div className="flex gap-2">
               <img src={PairsLogo} alt="Logo" />
               <img src={Pairs} alt="Name" />
