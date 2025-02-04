@@ -36,7 +36,7 @@ const Home = () => {
               <img src={PairsLogo} alt="Logo" />
               <img src={Pairs} alt="Name" />
             </div>
-            <ButtonSolid text="Connect Wallet" />
+            <ButtonSolid text="Connect Wallet" className='lg:!w-[15%]'/>
           </nav>
           <div
             className="wave-background pt-16 lg:pt-60 flex justify-between flex-col lg:flex-row pb-10"
@@ -88,9 +88,9 @@ const Home = () => {
                 and efficient DeFi trading solution
               </p>
             </div>
-            <div className="flex gap-3 justify-center">
-              <img src={InfoCard1} alt="" className="w-72 h-[350px]" />
-              <img src={InfoCard2} alt="" className="w-72 h-[350px]" />
+            <div className="flex gap-3 justify-center px-5 lg:px-0">
+              <img src={InfoCard1} alt="" className="lg:w-72 w-48 h-[250px] lg:h-[350px]" />
+              <img src={InfoCard2} alt="" className="lg:w-72 w-48 h-[250px] lg:h-[350px]" />
             </div>
           </div>
 
@@ -104,7 +104,7 @@ const Home = () => {
               <div className="flex justify-center lg:justify-start lg:pl-24">
                 <ButtonSolid
                   text="Connect Wallet"
-                  className="!bg-gray-300 !text-black !mt-12"
+                  className="!bg-gray-300 !text-black !w-[40%] !mt-12"
                 />
               </div>
             </div>
