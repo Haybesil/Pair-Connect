@@ -154,7 +154,7 @@ const Home = () => {
               <div
                 className="relative border border-gray-500 rounded-lg px-5 pl-8 py-3"
                 data-aos="fade-right"
-                data-aos-duration="1500"
+                data-aos-duration="2000"
               >
                 <img
                   src="/icons/swap-icon.svg"
@@ -171,7 +171,7 @@ const Home = () => {
               <div
                 className="relative border border-gray-500 rounded-lg px-5 pl-8 py-3"
                 data-aos="fade-left"
-                data-aos-duration="1500"
+                data-aos-duration="2000"
               >
                 <img
                   src="/icons/dollar-icon.svg"
@@ -190,7 +190,7 @@ const Home = () => {
               <div
                 className="relative border border-gray-500 rounded-lg px-5 pl-8 py-3"
                 data-aos="fade-right"
-                data-aos-duration="1500"
+                data-aos-duration="2000"
               >
                 <img
                   src="/icons/speed-icon.svg"
@@ -207,7 +207,7 @@ const Home = () => {
               <div
                 className="relative border border-gray-500 rounded-lg px-5 pl-8 py-3"
                 data-aos="fade-left"
-                data-aos-duration="1500"
+                data-aos-duration="2000"
               >
                 <img
                   src="/icons/looking-icon.svg"
