@@ -1,15 +1,15 @@
 import React from 'react';
 
 const partners = [
-  { id: 1, name: 'Arb', logo: '../../../public/icons/arb-icon.svg' },
-  { id: 2, name: 'Avax', logo: '../../../public/icons/avax-icon.svg' },
-  { id: 3, name: 'Base', logo: '../../../public/icons/base-icon.svg' },
-  { id: 4, name: 'Blast', logo: '../../../public/icons/blast-icon.svg' },
-  { id: 5, name: 'BNB', logo: '../../../public/icons/bnb-icon.svg' },
-  { id: 6, name: 'Celo', logo: '../../../public/icons/celo-icon.svg' },
-  { id: 7, name: 'ETH', logo: '../../../public/icons/eth-icon.svg' },
-  { id: 8, name: 'OPT', logo: '../../../public/icons/opt-icon.svg' },
-  { id: 9, name: 'Polygon', logo: '../../../public/icons/polygon-icon.svg' },
+  { id: 1, name: 'Arb', logo: '/icons/arb-icon.svg' },
+  { id: 2, name: 'Avax', logo: '/icons/avax-icon.svg' },
+  { id: 3, name: 'Base', logo: '/icons/base-icon.svg' },
+  { id: 4, name: 'Blast', logo: '/icons/blast-icon.svg' },
+  { id: 5, name: 'BNB', logo: '/icons/bnb-icon.svg' },
+  { id: 6, name: 'Celo', logo: '/icons/celo-icon.svg' },
+  { id: 7, name: 'ETH', logo: '/icons/eth-icon.svg' },
+  { id: 8, name: 'OPT', logo: '/icons/opt-icon.svg' },
+  { id: 9, name: 'Polygon', logo: '/icons/polygon-icon.svg' },
 ];
 
 const PartnerSection = () => {
