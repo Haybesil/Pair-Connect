@@ -38,14 +38,14 @@ const Home = () => {
             </div>
             <ButtonSolid text="Connect Wallet" />
           </nav>
-          <div className="wave-background pt-60 flex justify-between flex-col lg:flex-row pb-10"
-           style={{
-            backgroundImage: "url('/images/background1.gif')",
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-            
-           }}
+          <div
+            className="wave-background pt-60 flex justify-between flex-col lg:flex-row pb-10"
+            style={{
+              backgroundImage: "url('/images/background1.gif')",
+              backgroundPosition: 'center',
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat',
+            }}
           >
             <div className=" pl-0 lg:pl-11">
               <h3 className="text-[#00a848] text-[27px] font-medium text-center lg:text-left">
@@ -77,11 +77,12 @@ const Home = () => {
           </div>
           <div className="bg-[#1A1A1A] flex flex-col lg:flex-row justify-between px-24 py-24 gap-10 lg:gap-0">
             <div className="text-gray-300">
-              <h2 className="text-[45px] font-normal max-w-[500px] text-center lg:text-left">
+              <h2 className="text-[32px] sm:text-[36px] md:text-[40px] lg:text-[45px] font-normal max-w-[500px] text-center lg:text-left">
                 Welcome to{' '}
                 <span className="font-semibold text-[#7ee89f]">swaps</span> with
                 minimal fees.
               </h2>
+
               <p className="px-[100px] lg:px-0 lg:max-w-[500px] text-center lg:text-left pt-6">
                 Pairs is launching with a core feature, offering an accessible
                 and efficient DeFi trading solution
@@ -177,7 +178,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <footer className=''>
+          <footer className="">
             <h1 className="text-[30px] lg:text-[55px] font-semibold text-center text-gray-400 px-40 pt-8">
               <span className="text-white">Learn</span> more about the Pairs
               vision and features in our upcoming Whitepaper
