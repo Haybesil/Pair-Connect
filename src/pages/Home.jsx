@@ -57,7 +57,7 @@ const Home = () => {
               <h3 className="text-[#00a848] text-[27px] font-medium text-center lg:text-left">
                 Pairs
               </h3>
-              <h2 className="text-white text-[40px] lg:text-[55px] font-normal pb-6 text-center lg:text-left">
+              <h2 className="text-gray-300 text-[40px] lg:text-[55px] font-normal pb-6 text-center lg:text-left">
                 Swap <span className="font-semibold">Seamlessly</span> Anywhere
                 with Pairs
               </h2>
