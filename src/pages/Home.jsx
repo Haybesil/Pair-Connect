@@ -117,7 +117,7 @@ const Home = () => {
           </div>
 
           <div className="py-16 bg-[#f6f9f4]">
-            <div className="flex flex-col lg:flex-row justify-between py-5 lg:py-14 px-24 gap-5 lg:gap-0">
+            <div className="flex flex-col lg:flex-row justify-between py-5 lg:py-14 px-8 lg:px-24 gap-5 lg:gap-0">
               <h2 className="text-center lg:text-left text-[32px] font-semibold">
                 Why Pairs?
               </h2>
@@ -148,7 +148,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col lg:flex-row justify-between px-24 gap-5 lg:gap-0">
+            <div className="flex flex-col lg:flex-row justify-between px-8 lg:px-24 gap-5 lg:gap-0">
               <div className="relative border border-gray-500 rounded-lg px-5 pl-8 py-3">
                 <img
                   src="/icons/speed-icon.svg"
