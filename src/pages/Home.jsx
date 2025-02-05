@@ -228,7 +228,7 @@ const Home = () => {
             <h1
               className="text-[30px] lg:text-[55px] font-semibold text-center text-gray-400 lg:px-40 pt-8"
               data-aos="fade-up"
-              data-aos-duration="1500"
+              data-aos-duration="2000"
             >
               <span className="text-white">Learn</span> more about the Pairs
               vision and features in our upcoming Whitepaper
