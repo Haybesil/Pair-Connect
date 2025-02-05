@@ -106,7 +106,7 @@ const Home = () => {
                 and efficient DeFi trading solution
               </p>
             </div>
-            <div className="flex gap-3 justify-center px-5 lg:px-0">
+            <div className="flex gap-3 justify-center px-5 lg:px-0 overflow-x-hidden">
               <img
                 src={InfoCard1}
                 alt=""
@@ -120,7 +120,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="bg-[#1A1A1A] flex flex-col lg:flex-row justify-between py-24 gap-10 lg:gap-16">
+          <div className="bg-[#1A1A1A] flex flex-col lg:flex-row justify-between py-24 gap-10 lg:gap-16 overflow-x-hidden">
             <div className="">
               <h1
                 className="text-gray-300 text-[35px] lg:text-[48px] font-semibold lg:max-w-[900px] text-center lg:text-left pl-0 lg:pl-24"
@@ -146,7 +146,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="py-16 bg-[#f6f9f4]">
+          <div className="py-16 bg-[#f6f9f4] overflow-x-hidden">
             <div className="flex flex-col lg:flex-row justify-between py-5 lg:py-14 px-8 lg:px-24 gap-5 lg:gap-0">
               <h2 className="text-center lg:text-left text-[32px] font-semibold">
                 Why Pairs?
